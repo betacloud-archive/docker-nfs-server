@@ -2,6 +2,14 @@
 
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-betacloud%2Fnfs--server-blue.svg)](https://hub.docker.com/r/betacloud/nfs-server/)
 
+Example usage
+-------------
+
+```shell
+$ docker pull betacloud/nfs-server
+$ docker run -v /path/to/your/exports -it betacloud/nfs-server
+```
+
 License
 -------
 
