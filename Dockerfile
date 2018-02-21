@@ -4,7 +4,7 @@ MAINTAINER Betacloud Solutions GmbH (https://www.betacloud-solutions.de)
 ENV DEBIAN_FRONTEND noninteractive
 ENV VERSION ${VERSION:-latest}
 
-COPY files/extend_start.sh /extend_start.sh
+COPY files/run.sh /run.sh
 
 RUN apt-get update \
     && apt-get upgrade -y \
@@ -17,4 +17,4 @@ RUN apt-get update \
 
 VOLUME /exports
 EXPOSE 111/udp 2049/tcp
-CMD ["/extend_start.sh"]
+CMD ["/run.sh"]
