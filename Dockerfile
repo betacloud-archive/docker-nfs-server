@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Betacloud Solutions GmbH (https://www.betacloud-solutions.de)
+LABEL maintainer="Betacloud Solutions GmbH (https://www.betacloud-solutions.de)"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV VERSION ${VERSION:-latest}
