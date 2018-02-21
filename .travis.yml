@@ -15,7 +15,7 @@ before_install:
 
 env:
   global:
-    - REPOSITORY=betacloud/netbox
+    - REPOSITORY=betacloud/nfs-server
 
 script:
   - bash scripts/build.sh
