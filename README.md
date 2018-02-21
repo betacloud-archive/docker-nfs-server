@@ -1,6 +1,7 @@
 # docker-nfs-server
 
-[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-betacloud%2Fnfs--server-blue.svg)](https://hub.docker.com/r/betacloud/nfs-server/)
+[![Build Status](https://travis-ci.org/betacloud/docker-nfs-server.svg?branch=master)](https://travis-ci.org/betacloud/docker-nfs-server)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-betaloud%2Fnfs--server-blue.svg)](https://hub.docker.com/r/betacloud/nfs-server/)
 
 Example usage
 -------------
